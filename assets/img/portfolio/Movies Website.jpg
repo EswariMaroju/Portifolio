@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)file:///E:/movie%20downloader/home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website</title>
+    <link rel="stylesheet" href="./Movies Website_files/style.css">
+    <link rel="stylesheet" href="./Movies Website_files/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Movies Website_files/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./Movies Website_files/font-awesome.min.css">
+    <style>        
+        .search-container {
+          border: blue;
+          float: right;
+        }
+        
+        input[type=text] {
+          padding: 5px;
+          margin-top: 2vh;
+          font-size: 17px;
+          border: none;
+          background: #d2d0d0;
+          /* color: aliceblue; */
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+        
+         .search-container button {
+          float: right;
+          padding: 5px 14px;
+          margin-top: 2vh;
+          margin-right: 0;
+          /* margin-right: 1vw; */
+          background: #d2d0d0;
+          /* background: #9d9393; */
+          font-size: 17px;
+          border: none;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          cursor: pointer;
+        }
+        
+        .search-container button:hover {
+          /* background: #ccc; */
+          background: #9d9393;
+        }
+        
+        @media screen and (max-width: 600px) {
+          .search-container {
+            float: none;
+          }
+          .search-container button {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+          }
+          input[type=text] {
+            border: 1px solid #ccc;  
+          }
+        }
+        footer {
+            background-color: #171717;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        </style>
+</head>
+<body>
+    
+    <section>
+
+        <nav>
+
+            <div class="logo">
+                <h1>Movies<span>Hub</span></h1>
+            </div>
+            <div class="search-container">
+                <form>
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            <div class="right">
+                <ul>
+                    <li><a href="file:///E:/movie%20downloader/home.html">Home</a></li>
+                    <li><a href="file:///E:/movie%20downloader/about.html">About</a></li>
+                    <li><a href="file:///E:/movie%20downloader/faq.html">FAQ</a></li>
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                    <li><a href="file:///E:/movie%20downloader/login.html">Sign In</a></li>
+                </ul>
+                <!-- <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">TV Show</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul> -->
+
+            </div>
+
+        </nav>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+
+                <div class="image">
+
+                    <div class="black">
+
+                        <h1>Death on the Nile</h1>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Consectetur distinctio quis, ea commodi repellendus 
+                            fugiat aspernatur perspiciatis optio pariatur quod est, 
+                            nihil enim nemo saepe possimus sequi consequuntur, neque 
+                            eius.
+                        </p>
+                        <div class="genre">
+
+                            <a href="file:///E:/movie%20downloader/home.html#" class="category">Action</a>
+                            <a href="file:///E:/movie%20downloader/home.html#" class="category">Drama</a>
+                            <a href="file:///E:/movie%20downloader/home.html#" class="category"><span>4K</span></a>
+
+                        </div>
+                        <div class="watch">
+                            <i class="fa-solid fa-play"></i>
+                            <p>watch the trailer</p>
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/background.jpg">
+
+                </div>
+            </div>
+
+              
+            <!-- </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+        </div>
+
+    </div></section>
+
+
+
+
+    <div class="second">
+
+        <div class="latest">
+
+            <h1>Popular Movies</h1>
+
+            <div class="box">
+
+                <div class="card">
+                    <!-- <img src="image/gajaman.jpg"> -->
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Gajaman</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Animation/Comedy</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/gajaman.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Black Panther: Wakanda Forever</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.1</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/Black_Panther.webp">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Interceptor</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/Interceptor.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Thor: Love and Thunder</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>6.3</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/Thor.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Black Adam</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>6.4</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/Black_Adam.jpg">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="upcoming">
+
+        <div class="movies_box">
+
+            <h1>Upcoming Movies</h1>
+
+            <div class="box">
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Plane</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Thriller</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/plane.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">John Wick: Chapter 4</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Neo-noir</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/john_wick.jfif">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Meg 2: The Trench</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Adventure</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/meg.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Aquaman and the Lost Kingdom</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Fantasy</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/aquaman.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Ant-Man and the Wasp: Quantumania</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/ant_man.jpg">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="show">
+
+        <div class="tv_show">
+
+            <h1>World Best TV Show</h1>       
+            
+            <div class="box">
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Money Heist</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2017</p>
+                            </div>
+                            <p class="category">Thriller</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/money_heist.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Wednseday</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Comedy</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/wednesday.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">1899</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Mystery</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.4</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/1899.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Game of Thrones</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2011</p>
+                            </div>
+                            <p class="category">Drama</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/game_of_thrones.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Arrow</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2012</p>
+                            </div>
+                            <p class="category">Drama</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.5</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="./Movies Website_files/arrow.jpg">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="newsletter">
+
+        <h1>Follow Us</h1>
+
+        <div class="news_card">
+
+            <input type="email" name="" id="" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+
+        </div>
+
+    </div>
+    <footer>
+        <p></p><h3>© 2024 Movie Downloader. All rights reserved.</h3><p></p><br>
+        <p>
+            <a href="file:///E:/movie%20downloader/privacy-policy.html">Privacy Policy</a> |
+            <a href="file:///E:/movie%20downloader/terms-of-service.html">Terms of Service</a> |
+            <a href="file:///E:/movie%20downloader/contact.html">Contact Us</a>
+        </p>
+        <p>Follow us on:
+            <a href="https://facebook.com/" target="_blank">Facebook</a> |
+            <a href="https://twitter.com/" target="_blank">Twitter</a> |
+            <a href="https://instagram.com/" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+
+    <p class="end">Design By<span><i class="fa-solid fa-face-grin"></i>Eswari Maroju</span></p>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./Movies Website_files/swiper-bundle.min.js.download"></script>
+
+  <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script> -->
+    
+
+</body></html>
